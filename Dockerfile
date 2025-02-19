@@ -4,7 +4,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copiar el archivo JAR al contenedor
-COPY target/your-application.jar /app/your-application.jar
+COPY target/helloworld.jar /app/helloworld.jar
 
 # Comando para ejecutar la aplicación
-CMD ["java", "-jar", "/app/your-application.jar"]
+CMD ["java", "-jar", "/app/helloworld.jar"]
