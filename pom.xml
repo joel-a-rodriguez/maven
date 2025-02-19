@@ -29,6 +29,14 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- end::junit[] -->
+		<!-- tag::servlet[] -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- end::servlet[] -->
 	</dependencies>
 
 	<build>
